@@ -54,6 +54,22 @@ body {
 }
 
 /* Reserve Table Special Button */
+/* Navbar Logo */
+.navbar .logo {
+  font-size: 1.8rem;   
+  font-weight: 800;    
+  color: #fff;         
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* On small screens */
+@media (max-width: 768px) {
+  .navbar .logo {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+}
 
 .navbar .reserve-btn {
   background: #ff9800;
@@ -348,4 +364,5 @@ body {
     
   }
 }
+
 
